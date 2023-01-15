@@ -209,5 +209,91 @@ body{
     position: relative;
     bottom: 80px;
     left: 650px;
-    
+}
+
+/* facts section style  */
+.some-Facts{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.section-title{
+    width: 300px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}
+.title-description{
+    width: 500px;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #727272;
+    line-height: 20px;
+}
+.facts{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fact{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+}
+#icons{
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.number-1{
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 74px;
+    margin-top: -5px;
+    color: #424242;
+}
+.number-2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: -5px;
+    color: #424242;
+}
+.number-3{
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 70px;
+    margin-top: -5px;
+    color: #424242;
+}
+.number-4{
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: -5px;
+    color: #424242;
+}
+.name-1{
+    margin-left: 40px;
+    margin-top: -20px;
+    color: #727272;
+}
+.name-2{
+    margin-left: 40px;
+    margin-top: -20px;
+    color: #727272;
+}
+.name-3{
+    margin-left: 52px;
+    margin-top: -20px;
+    color: #727272;
+}
+.name-4{
+    margin-left: 60px;
+    margin-top: -20px;
+    color: #727272;
 }
