@@ -365,3 +365,81 @@ body{
 .sponser-section{
     margin-bottom: 200px;
 }
+.extra-footer{
+    background-color: #131313;
+    color: white; 
+}
+.form{
+    display: flex;
+}
+.conatact{
+    margin-left: 70px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    width: 400px;
+}
+.contact-descrip{
+    margin-top: -20px;
+    margin-left: 70px;
+    width: 300px;
+    font-size: 18px;
+}
+.e-mail{
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.phone-num{
+    margin-left: 70px;
+}
+.social{
+    margin-left: 70px;
+}
+.contact-info{
+    margin-left: 150px;
+}
+.message{
+    display: flex;
+    flex-direction: row;
+}
+.your-name{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #FF900E;
+    border-radius: 5px;
+}
+.your-email{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #FF900E;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.your-message{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #FF900E;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.send{
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(255, 179, 39);
+    border-radius: 5px;
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+.send:hover{
+    background-color:  rgb(163, 243, 82);
+    transition-duration: 1s;
+}
