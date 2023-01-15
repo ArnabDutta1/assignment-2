@@ -8,6 +8,7 @@ body{
 /* banner style  */
 .banner{
     background-color: rgba(255, 144, 14, 0.1);
+    
 }
 /* Nav bar style  */
 .top-nav{
@@ -64,6 +65,7 @@ body{
     width: 180px;
     height: 60px;
     padding: 5px;
+    border: none;
     background-color: rgb(255, 179, 39);
     border-radius: 5px;
     margin-top: 30px;
@@ -124,7 +126,88 @@ body{
     width: 180px;
     height: 60px;
     padding: 5px;
+    border: none;
     background-color: rgb(255, 179, 39);
     border-radius: 5px;
     margin-top: 32px;
+}
+
+/* another feature style  */
+.features-about{
+    display: flex;
+}
+.another-feature-info{
+    margin-left: 70px;
+}
+.title-with-style{
+    display: flex;
+}
+.a-bar{
+    margin-top: 100px;
+    border: 1px solid rgb(255, 179, 39);
+    width: 3px;
+    height: 106px;
+    background-color: rgb(255, 179, 39);
+}
+.ft-title{
+    margin-top: 100px;
+    margin-left: 15px;
+    color: #131313;
+    width: 400px;
+    height: 100px;
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 50px;
+}
+.a-f-title-description{
+    margin-top: -10px ;
+    width: 500px;
+    color: #727272;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.feature-class{
+    display: block;
+    border: 0 ;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(244, 247, 250);
+    box-shadow: 10px 5px 5px rgb(93, 87, 87);
+}
+.f-t-tite{
+    width: 250px;
+    color: #131313;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+}
+.f-t-title-description{
+    width: 500px;
+    font-weight: 400;
+    color: #727272;
+    font-size: 16px;
+}
+.a-f-photo img{
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 20px;
+    width: 600px;
+    height: 800px;
+}
+.experience{
+    width: 225px;
+    height: 125px;
+    padding: 5px;
+    background-color: rgb(255, 179, 39);
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    bottom: 80px;
+    left: 650px;
+    
 }
