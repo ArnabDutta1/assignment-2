@@ -7,8 +7,7 @@ body{
 }
 /* banner style  */
 .banner{
-    background-color: rgba(255, 144, 14, 0.1);
-    
+    background-color: rgba(255, 144, 14, 0.1);   
 }
 /* Nav bar style  */
 .top-nav{
@@ -443,3 +442,4 @@ body{
     background-color:  rgb(163, 243, 82);
     transition-duration: 1s;
 }
+
