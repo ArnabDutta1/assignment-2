@@ -15,6 +15,10 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.nav-option:hover{
+    background-color: #f9c07e;
+    transition: 1s;
+}
 .nav-title{
     margin-top: 50px;
     margin-left: 150px;
@@ -70,6 +74,10 @@ body{
     border-radius: 5px;
     margin-top: 30px;
     margin-left: 630px;
+}
+.explore:hover{
+    background-color: rgb(163, 243, 82);
+    transition-duration: 1s;
 }
 #banner{
     width: 1200px;
@@ -131,6 +139,10 @@ body{
     border-radius: 5px;
     margin-top: 32px;
 }
+.explore2:hover{
+    background-color: rgb(163, 243, 82);
+    transition-duration: 1s;
+}
 
 /* another feature style  */
 .features-about{
@@ -176,6 +188,10 @@ body{
     background-color: rgb(244, 247, 250);
     box-shadow: 10px 5px 5px rgb(93, 87, 87);
 }
+.feature-class:hover{
+    background-color: rgb(152, 248, 216);
+    transition-duration: 2s;
+}
 .f-t-tite{
     width: 250px;
     color: #131313;
@@ -210,7 +226,10 @@ body{
     bottom: 80px;
     left: 650px;
 }
-
+.experience:hover{
+    background-color:  rgb(163, 243, 82);
+    transition-duration: 1s;
+}
 /* facts section style  */
 .some-Facts{
     margin-top: 20px;
@@ -277,6 +296,10 @@ body{
     margin-top: -5px;
     color: #424242;
 }
+.fact:hover{
+    background-color: aqua;
+    transition-duration: 2s;
+}
 .name-1{
     margin-left: 40px;
     margin-top: -20px;
@@ -296,4 +319,49 @@ body{
     margin-left: 60px;
     margin-top: -20px;
     color: #727272;
+}
+/* footer section style  */
+.footer-title{
+    width: 300px;
+    color: #131313;
+    margin-left: 600px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 120px;
+}
+.f-s-title-description{
+    width: 500px;
+    margin-left: 500px;
+    color: #727272;
+    text-align: center;
+    font-weight: 400px;
+    font-size: 16px;
+}
+.sponser{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 70px;
+    column-gap: 100px;
+}
+.sponser img{
+    width: 160px;
+    height: 50px;
+    filter: grayscale(100%);
+}
+.footer-bar{
+    width: 1200px;
+    height: 80px;
+    margin-left: 70px;
+    margin-top: 100px;
+    background-color: #fff4e7;
+}
+.f-b-description{
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 300px;
+}
+
+.sponser-section{
+    margin-bottom: 200px;
 }
